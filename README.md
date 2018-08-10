@@ -1,5 +1,5 @@
 # java_training_firstins 第一保教育訓練
-- Week 1 Environment set up & Introduction for Java 
+- Week 1 Environment set up & Introduction for Java (2018/08/15)
   - Process control I
     - if else
     - for
@@ -13,7 +13,7 @@
     - collect
 
 
-- Week 2 Introduction for Java Servlet
+- Week 2 Introduction for Java Servlet (2018/08/22)
   - Relation between container and servlet
   - HttpRequest, HttpResponse
   - Session

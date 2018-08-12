@@ -1,4 +1,4 @@
-package ProcessControlOne;
+package processControlOne;
 
 import com.google.inject.internal.util.Maps;
 import java.util.AbstractMap.SimpleEntry;

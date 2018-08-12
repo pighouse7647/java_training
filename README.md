@@ -15,6 +15,8 @@
     - extends, implements
     - public, private, protected
     - encapsulation, polymorphism
+    - override
+    - static
   - Annotation  
 
 - Week 2 Introduction for Java Servlet (2018/08/22)

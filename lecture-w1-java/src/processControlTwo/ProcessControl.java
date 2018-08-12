@@ -9,8 +9,6 @@ import lombok.Getter;
 import lombok.Setter;
 
 
-@Setter
-@Getter
 public class ProcessControl {
 
   enum Gender {
@@ -18,12 +16,58 @@ public class ProcessControl {
     MALE,
   }
 
-  @Setter
-  @Getter
   static
   class Person {
 
-    private String name;
+    public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Integer getEmpNo() {
+		return empNo;
+	}
+
+	public void setEmpNo(Integer empNo) {
+		this.empNo = empNo;
+	}
+
+	public Gender getGender() {
+		return gender;
+	}
+
+	public void setGender(Gender gender) {
+		this.gender = gender;
+	}
+
+	public BigDecimal getWageRate() {
+		return wageRate;
+	}
+
+	public void setWageRate(BigDecimal wageRate) {
+		this.wageRate = wageRate;
+	}
+
+	public BigDecimal getWorkHour() {
+		return workHour;
+	}
+
+	public void setWorkHour(BigDecimal workHour) {
+		this.workHour = workHour;
+	}
+
+	public BigDecimal getSalary() {
+		return salary;
+	}
+
+	public void setSalary(BigDecimal salary) {
+		this.salary = salary;
+	}
+
+	private String name;
     private Integer empNo;
     private Gender gender;
     private BigDecimal wageRate;
@@ -37,12 +81,51 @@ public class ProcessControl {
     }
   }
 
-  @Setter
-  @Getter
   static
   class PersonBuilder {
 
-    private String name;
+    public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Integer getEmpNo() {
+		return empNo;
+	}
+
+	public void setEmpNo(Integer empNo) {
+		this.empNo = empNo;
+	}
+
+	public Gender getGender() {
+		return gender;
+	}
+
+	public void setGender(Gender gender) {
+		this.gender = gender;
+	}
+
+	public BigDecimal getWageRate() {
+		return wageRate;
+	}
+
+	public void setWageRate(BigDecimal wageRate) {
+		this.wageRate = wageRate;
+	}
+
+	public BigDecimal getWorkHour() {
+		return workHour;
+	}
+
+	public void setWorkHour(BigDecimal workHour) {
+		this.workHour = workHour;
+	}
+
+
+	private String name;
     private Integer empNo;
     private Gender gender;
     private BigDecimal wageRate;
